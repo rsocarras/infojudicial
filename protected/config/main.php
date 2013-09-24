@@ -54,9 +54,6 @@ return array(
 	'components'=>array(
 		
 
-
-
-
 		'bootstrap'=>array(
             'class'=>'bootstrap.components.Bootstrap',
             'responsiveCss' => true,
@@ -87,9 +84,9 @@ return array(
 		//	'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		//),
 		// uncomment the following to use a MySQL database
-		
+	
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=logisticflow',
+			'connectionString' => 'mysql:host=localhost;dbname=informatejudicial',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',
